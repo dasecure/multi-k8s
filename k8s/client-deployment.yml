@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: client
-          image: dasecure/multi-client
+          image: dasecure/multi-client:v6
           ports:
             - containerPort: 3000
